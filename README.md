@@ -29,10 +29,14 @@
 ## us-east-1: 
 prd: 
     node_count: 1 
+
     node_type: t2.medium
+
 ## us_west-1: 
 prd: 
     node_count: 2 
+
     node_type: t2.small
+
 stg: 
     cluster_habitation_override: ec2prdhwatever
