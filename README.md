@@ -1,7 +1,5 @@
 # test-app-name
 
-## name:
-  test-app-name
 
 ## repo_url:
   https://chug.git.beanstalkapp.com/test.git
