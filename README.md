@@ -1,13 +1,13 @@
 # test-app-name
 
 
-## repo_url:
+## repo_url
   https://chug.git.beanstalkapp.com/test.git
 
-## description:
+## description
   desc goes here
 
-## Contributors: 
+## Contributors 
 | Name | Email |
 | ---- | ---- |
 |dev|dev@dev.com|
@@ -16,14 +16,14 @@
 |dev|dev@dev.com|
 
 
-## chef_runlist: 
+## chef_runlist 
 - role[base] 
 - role[aws-node] 
 - role[icinga-monitored] 
 - role[icinga-localhost-8080-healthcheck] 
 - role[icinga-single-lotbot-java-proc] 
 
-## terraform: 
+## terraform 
 ## us-east-1: 
 prd: 
 
