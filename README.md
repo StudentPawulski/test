@@ -24,14 +24,15 @@
 - role[icinga-single-lotbot-java-proc] 
 
 ## terraform 
-us-east-1 
+```
+us-east-1: 
 prd: 
 
     node_count: 1 
 
     node_type: t2.medium
 
-us_west-1 
+us_west-1: 
 prd: 
 
     node_count: 2 
@@ -41,3 +42,4 @@ prd:
 stg: 
 
     cluster_habitation_override: ec2prdhwatever
+```
