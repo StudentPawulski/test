@@ -1,3 +1,7 @@
+```
+This readme is generated from metadata.yaml. Manual changes to this file will be overwritten
+```
+
 # test-app-name
 
 
