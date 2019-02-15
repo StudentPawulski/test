@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ```
 This readme is generated from metadata.yaml. Manual changes to this file will be overwritten
 ```
@@ -13,18 +12,6 @@ This readme is generated from metadata.yaml. Manual changes to this file will be
   desc goes here
 
 ## contributors 
-=======
-# test-app-name
-
-
-## repo_url
-  https://chug.git.beanstalkapp.com/test.git
-
-## description
-  desc goes here
-
-## Contributors 
->>>>>>> bb596a3db20e24976319c2a07642ced15b6ed53e
 | Name | Email |
 | ---- | ---- |
 |dev|dev@dev.com|
