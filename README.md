@@ -1,38 +1,38 @@
-#photoai-api
+# test-app-name
 
-##name:
-  photoai-api
 
-##repo_url:
-  https://chug.git.beanstalkapp.com/photoai-api.git
+## repo_url
+  https://chug.git.beanstalkapp.com/test.git
 
-##description:
+## description
   desc goes here
 
-##Contributors: 
+## contributors 
 | Name | Email |
 | ---- | ---- |
-|Aqeel Abbas|aabbas@lotlinx.com|
-|David Wroblewski|dwroblewski@lotlinx.com|
-|Kevin Hildebrand|khildebrand@lotlinx.com|
-|Ian Mcphillips|imcphillips@lotlinx.com|
+|dev|dev@dev.com|
+|dev|dev@dev.com|
+|dev|dev@dev.com|
+|dev|dev@dev.com|
 
 
-##chef_runlist: 
+## chef_runlist 
 - role[base] 
 - role[aws-node] 
 - role[icinga-monitored] 
 - role[icinga-localhost-8080-healthcheck] 
 - role[icinga-single-lotbot-java-proc] 
 
-##terraform: 
-##us-east-1: 
-##prd: 
+## terraform 
+```
+us-east-1: 
+  prd: 
     node_count: 1 
     node_type: t2.medium
-##us_west-1: 
-##prd: 
+us_west-1: 
+  prd: 
     node_count: 2 
     node_type: t2.small
-##stg: 
+  stg: 
     cluster_habitation_override: ec2prdhwatever
+```
