@@ -41,4 +41,5 @@ prd:
     node_type: t2.small
 
 stg: 
+
     cluster_habitation_override: ec2prdhwatever
