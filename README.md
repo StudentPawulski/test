@@ -1,10 +1,10 @@
-# photoai-api
+# test
 
 ## name:
-  photoai-api
+  test
 
 ## repo_url:
-  https://chug.git.beanstalkapp.com/photoai-api.git
+  https://chug.git.beanstalkapp.com/test.git
 
 ## description:
   desc goes here
@@ -12,10 +12,10 @@
 ## Contributors: 
 | Name | Email |
 | ---- | ---- |
-|Aqeel Abbas|aabbas@lotlinx.com|
-|David Wroblewski|dwroblewski@lotlinx.com|
-|Kevin Hildebrand|khildebrand@lotlinx.com|
-|Ian Mcphillips|imcphillips@lotlinx.com|
+|dev|dev@dev.com|
+|dev|dev@dev.com|
+|dev|dev@dev.com|
+|dev|dev@dev.com|
 
 
 ## chef_runlist: 
