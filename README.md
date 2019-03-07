@@ -2,22 +2,27 @@
 This readme is generated from metadata.yaml. Manual changes to this file will be overwritten
 ```
 
-# test-app-name
+# sample-api![Badge](https://img.shields.io/badge/region-us-east-1-blue.svg)
 
 
 ## repo_url
-  https://chug.git.beanstalkapp.com/test.git
+  https://chug.git.beanstalkapp.com/sample-api.git
 
 ## description
-  desc goes here
+  An internal-only dummy API written in Java Vert.X which is used as platform 
+for testing infrastructure changes, and as the reference implementation for 
+this type of API within the company.
 
 ## contributors 
 | Name | Email |
 | ---- | ---- |
-|dev|dev@dev.com|
-|dev|dev@dev.com|
-|dev|dev@dev.com|
-|dev|dev@dev.com|
+|Ian McPhillips|imcphillips@lotlinx.com|
+|Aqeel Abbas|aabbas@lotlinx.com|
+|Daniela Alves|dalves@lotlinx.com|
+|Douglas Griffith|dgriffith@lotlinx.com|
+|Matthew Wawrin|mwawrin@lotlinx.com|
+|David Wroblewski|dwroblewski@lotlinx.com|
+|Kevin Hildebrand|khildebrand@lotlinx.com|
 
 
 ## chef_runlist 
@@ -32,11 +37,15 @@ This readme is generated from metadata.yaml. Manual changes to this file will be
 us-east-1: 
   prd: 
     node_count: 1 
-    node_type: t2.medium
-us_west-1: 
-  prd: 
-    node_count: 2 
     node_type: t2.small
-  stg: 
-    cluster_habitation_override: ec2prdhwatever
+us-west-1: 
+  prd: 
+    node_count: 0 
+    node_type: t2.small
 ```
+
+## port
+  8080
+
+## deploy_type
+  java_jar
